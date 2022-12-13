@@ -42,9 +42,12 @@ public class Utility {
 
 	
 	}
-		
-		
-public static void scrollintoView(WebDriver driver,WebElement element) 
+	
+	
+	
+	
+	
+	public static void scrollintoView(WebDriver driver,WebElement element) 
 {
 	JavascriptExecutor js=(JavascriptExecutor)driver;
 	js.executeScript("arguement[0].scrollintoView(true)", element);
