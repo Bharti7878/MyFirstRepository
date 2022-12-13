@@ -19,13 +19,18 @@ public class Base {
 				Reporter.log("Launching browser",true);
 				Utility.wait(driver, 1000);
 	}
-	
+	//launching  browser
 	public static void closingBrowser(WebDriver driver) throws InterruptedException
 	{
 		Reporter.log("closing browser", true);
 		Thread.sleep(500);
 		driver.close();
 		}
+
+
+
+
+
 }
 		
 

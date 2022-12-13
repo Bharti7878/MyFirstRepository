@@ -23,6 +23,7 @@ public class Base {
 	
 	
 	
+	
 	public static void closingBrowser(WebDriver driver) throws InterruptedException
 	{
 		Reporter.log("closing browser", true);
